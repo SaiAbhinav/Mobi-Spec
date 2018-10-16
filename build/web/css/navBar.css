@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Jun, 2018, 9:56:18 AM
+    Author     : saiab
+*/
+
+/*body {
+	margin: 0 auto;
+	width: 75%;
+	font-family: arial;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+li a:hover {
+	background-color: #111;	
+	color: #5cb85c;
+}
+
+li a.active {
+	background-color: #4caf50;
+}
+
+input {
+	outline: none;
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+input[type=search] {
+	margin-top: 8px;
+	margin-right: 5px;
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: none;
+	padding: 8px 8px 8px 32px;
+	width: 65px;	
+	border-radius: 5px;	
+	transition: all .5s;
+}
+
+input[type=search]:focus {
+	width: 400px;
+	background-color: #fff;
+	border-color: #66CC75;
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+input:-moz-placeholder {
+	color: #999;
+	font-family: inherit;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+	font-family: inherit;
+}*/
+
+i {
+    font-size: 20px;
+    color: white;
+}
+.nav-item {
+    padding: 3px;
+}

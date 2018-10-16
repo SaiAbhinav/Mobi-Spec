@@ -1,0 +1,12 @@
+SMAP
+getspecs_jsp.java
+JSP
+*S JSP
+*F
++ 0 getspecs.jsp
+queries/getspecs.jsp
+*L
+5,13:46
+20,27:62
+46,4:89
+*E

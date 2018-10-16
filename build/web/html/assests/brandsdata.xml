@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE brands SYSTEM "brandsdata.dtd">
+<brands>
+    <brand id="1"><name>SAMSUNG</name></brand> 
+    <brand id="2"><name>LENOVO</name></brand>
+    <brand id="3"><name>ALCATEL</name></brand>
+    <brand id="4"><name>WIKO</name></brand>
+    <brand id="5"><name>APPLE</name></brand>
+    <brand id="6"><name>XIAOMI</name></brand>
+    <brand id="7"><name>ZTE</name></brand>
+    <brand id="8"><name>VIVO</name></brand>
+    <brand id="9"><name>NOKIA</name></brand>
+    <brand id="10"><name>GOOGLE</name></brand>
+    <brand id="11"><name>TOSHIBA</name></brand>
+    <brand id="12"><name>LEECO</name></brand>
+    <brand id="13"><name>SONY</name></brand>
+    <brand id="14"><name>ACER</name></brand>
+    <brand id="15"><name>VODAFONE</name></brand>
+    <brand id="16"><name>PANASONIC</name></brand>
+    <brand id="17"><name>LG</name></brand>
+    <brand id="18"><name>ASUS</name></brand>
+    <brand id="19"><name>ENERGIZER</name></brand>
+    <brand id="20"><name>HP</name></brand>
+    <brand id="21"><name>HTC</name></brand>
+    <brand id="22"><name>OPPO</name></brand>
+    <brand id="23"><name>XOLO</name></brand>
+    <brand id="24"><name>YU</name></brand>
+    <brand id="25"><name>MOTOROLA</name></brand>
+    <brand id="26"><name>ONEPLUS</name></brand>
+    <brand id="27"><name>LAVA</name></brand>
+    <brand id="28"><name>VERYKOOL</name></brand>
+    <brand id="29"><name>HUAWEI</name></brand>
+    <brand id="30"><name>MEIZU</name></brand>
+    <brand id="31"><name>MICROMAX</name></brand>
+    <brand id="32"><name>MAXWEST</name></brand>
+    <brand id="33"><name>MICROSOFT</name></brand>
+    <brand id="34"><name>BLACKBERRY</name></brand>
+    <brand id="35"><name>BLU</name></brand>
+    <brand id="36"><name>PLUM</name></brand>   
+</brands>

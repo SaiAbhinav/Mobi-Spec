@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="users">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="user" minOccurs='1' maxOccurs='unbounded'/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element> 
+       
+    <xs:element name="user">
+        <xs:complexType>            
+            <xs:sequence>
+                <xs:element name="email" minOccurs='1' maxOccurs='1'>
+                    <xs:simpleType>
+                        <xs:restriction base='xs:string'>
+                            <xs:pattern value="(\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+)"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="username" minOccurs='1' maxOccurs='1'>
+                    <xs:simpleType>
+                        <xs:restriction base='xs:string'>
+                            <xs:pattern value="([a-zA-Z])+"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="password" minOccurs='1' maxOccurs='1'>
+                    <xs:simpleType>
+                        <xs:restriction base='xs:string'>
+                            <xs:minLength value="4"/>                           
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="gender" minOccurs='1' maxOccurs='1'>
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="male" />
+                            <xs:enumeration value="female" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="dob" minOccurs='1' maxOccurs='1' type="xs:date" />
+                <xs:element name="address" minOccurs='1' maxOccurs='1' type="xs:string" />                                    
+                <xs:element name="preferences" minOccurs='1' maxOccurs='1'>
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[A-Z,]*" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="nation" minOccurs='1' maxOccurs='1'>
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="india" />
+                            <xs:enumeration value="other" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>            
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

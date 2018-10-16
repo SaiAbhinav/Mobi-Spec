@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+ <xs:element name="users">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element ref="user" minOccurs='1' maxOccurs='unbounded'/>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element> 
+       
+ <xs:element name="user">
+  <xs:complexType>            
+   <xs:sequence>
+    <xs:element name="email" minOccurs='1' maxOccurs='1'>
+     <xs:simpleType>
+      <xs:restriction base='xs:string'>
+       <xs:pattern value="([a-zA-Z0-9][\w.]*@(gmail|yahoo|outlook)\.com)"/>
+      </xs:restriction>
+     </xs:simpleType>
+    </xs:element>
+    <xs:element name="username" minOccurs='1' maxOccurs='1'>
+     <xs:simpleType>
+      <xs:restriction base='xs:string'>
+       <xs:pattern value="([a-zA-Z0-9])+"/>
+      </xs:restriction>
+     </xs:simpleType>
+    </xs:element>
+    <xs:element name="password" minOccurs='1' maxOccurs='1'>
+     <xs:simpleType>
+      <xs:restriction base='xs:string'>
+       <xs:pattern value="[a-zA-Z0-9@#]{8,}"/>                           
+      </xs:restriction>
+     </xs:simpleType>
+    </xs:element>
+    <xs:element name="gender" minOccurs='1' maxOccurs='1'>
+     <xs:simpleType>
+      <xs:restriction base="xs:string">
+       <xs:enumeration value="male" />
+       <xs:enumeration value="female" />
+      </xs:restriction>
+     </xs:simpleType>
+    </xs:element>
+    <xs:element name="dob" minOccurs='1' maxOccurs='1'>
+     <xs:simpleType>
+      <xs:restriction base="xs:string">
+       <xs:pattern value="((((19|[2-9]\d)\d{2})\-(0[13578]|1[02])\-(0[1-9]|[12]\d|3[01]))|(((19|[2-9]\d)\d{2})\-(0[13456789]|1[012])\-(0[1-9]|[12]\d|30))|(((19|[2-9]\d)\d{2})\-02\-(0[1-9]|1\d|2[0-8]))|(((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))\-02\-29))" />
+      </xs:restriction>
+     </xs:simpleType>
+    </xs:element>
+    <xs:element name="address" minOccurs='1' maxOccurs='1' type="xs:string" />                                    
+    <xs:element name="preferences" minOccurs='1' maxOccurs='5'>
+     <xs:simpleType>
+      <xs:restriction base="xs:string">
+       <xs:enumeration value="SAMSUNG"/>
+       <xs:enumeration value="LENOVO"/>
+       <xs:enumeration value="ALCATEL"/>
+       <xs:enumeration value="WIKO"/>
+       <xs:enumeration value="APPLE"/>
+       <xs:enumeration value="XIAOMI"/>
+       <xs:enumeration value="ZTE"/>
+       <xs:enumeration value="VIVO"/>
+       <xs:enumeration value="NOKIA"/>
+       <xs:enumeration value="GOOGLE"/>
+       <xs:enumeration value="TOSHIBA"/>
+       <xs:enumeration value="LEECO"/>
+       <xs:enumeration value="SONY"/>
+       <xs:enumeration value="ACER"/>
+       <xs:enumeration value="VODAFONE"/>
+       <xs:enumeration value="PANASONIC"/>
+       <xs:enumeration value="LG"/>
+       <xs:enumeration value="ASUS"/>
+       <xs:enumeration value="ENERGIZER"/>
+       <xs:enumeration value="HP"/>
+       <xs:enumeration value="HTC"/>
+       <xs:enumeration value="OPPO"/>
+       <xs:enumeration value="XOLO"/>
+       <xs:enumeration value="YU"/>
+       <xs:enumeration value="MOTOROLA"/>
+       <xs:enumeration value="ONEPLUS"/>
+       <xs:enumeration value="LAVA"/>
+       <xs:enumeration value="VERYKOOL"/>
+       <xs:enumeration value="HUAWEI"/>
+       <xs:enumeration value="MEIZU"/>
+       <xs:enumeration value="MICROMAX"/>
+       <xs:enumeration value="MAXWEST"/>
+       <xs:enumeration value="MICROSOFT"/>
+       <xs:enumeration value="BLACKBERRY"/>
+       <xs:enumeration value="BLU"/>
+       <xs:enumeration value="PLUM"/>
+      </xs:restriction>
+     </xs:simpleType>
+    </xs:element>
+    <xs:element name="nation" minOccurs='1' maxOccurs='1'>
+     <xs:simpleType>
+      <xs:restriction base="xs:string">
+       <xs:enumeration value="india" />
+       <xs:enumeration value="other" />
+      </xs:restriction>
+     </xs:simpleType>
+    </xs:element>
+   </xs:sequence>            
+  </xs:complexType>
+ </xs:element>
+</xs:schema>

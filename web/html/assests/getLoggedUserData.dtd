@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT users (user)*>
+<!ELEMENT user (email,username,gender,dob,address,preferences,nation)*>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT preferences (pref)*>
+<!ELEMENT pref (#PCDATA)>
+<!ATTLIST pref id CDATA #REQUIRED>
+<!ELEMENT nation (#PCDATA)>

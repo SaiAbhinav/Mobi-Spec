@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT reviews (review)*>
+<!ELEMENT review (id,mobile,user,text,time)*>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT time (#PCDATA)>

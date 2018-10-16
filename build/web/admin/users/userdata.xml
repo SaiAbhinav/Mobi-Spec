@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+    <user>
+        <email>saiabhinavvasepalli@gmail.com</email>
+        <username>abhinav</username>
+        <password>abhinav</password>
+        <gender>male</gender>
+        <dob>1997-09-28</dob>
+        <address>D.No: 7-5-92, Opp. Nirmal Concept School, Nirmal Nagar</address>
+        <preferences>SAMSUNG,LENOVO,APPLE,ZTE,GOOGLE</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>dkchaitanyavarma06@gmail.com</email>
+        <username>chaitu</username>
+        <password>chaitu</password>
+        <gender>male</gender>
+        <dob>2018-07-13</dob>
+        <address>2-20, 1st floor, Lakshmipuram colony,Poranki,Tadigadapa,Krishna Dist</address>
+        <preferences>APPLE,ONEPLUS</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>raviteja9597@gmail.com</email>
+        <username>raviteja</username>
+        <password>ravi</password>
+        <gender>male</gender>
+        <dob>2018-07-11</dob>
+        <address>D.No: 7-5-92, Opp. Nirmal Concept School, Nirmal-Nagar</address>
+        <preferences>SAMSUNG,APPLE,ONEPLUS</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>sriharsha@gmail.com</email>
+        <username>sriharsha</username>
+        <password>harsha</password>
+        <gender>male</gender>
+        <dob>2018-07-21</dob>
+        <address>2-20, 1st floor, Lakshmipuram colony,Poranki,Tadigadapa,Krishna Dist</address>
+        <preferences>APPLE,ONEPLUS</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>sanjay99@gmail.com</email>
+        <username>sanjay</username>
+        <password>sanjay</password>
+        <gender>male</gender>
+        <dob>2018-07-18</dob>
+        <address>D.No: 7-5-92, Opp. Nirmal Concept School, Nirmal Nagar</address>
+        <preferences>APPLE,ONEPLUS</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>arvindsai8198@gmail.com</email>
+        <username>arvind</username>
+        <password>arvind</password>
+        <gender>male</gender>
+        <dob>2018-07-02</dob>
+        <address>2-20, 1st floor, Lakshmipuram colony,Poranki,Tadigadapa,Krishna Dist</address>
+        <preferences>APPLE,ONEPLUS</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>pandurangareddy@gmail.com</email>
+        <username>pandu</username>
+        <password>pandu</password>
+        <gender>male</gender>
+        <dob>2018-07-29</dob>
+        <address>lol city</address>
+        <preferences>SAMSUNG,LENOVO,ALCATEL,APPLE,MOTOROLA</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>apurvavasepalli@gmail.com</email>
+        <username>apurva</username>
+        <password>apurva</password>
+        <gender>female</gender>
+        <dob>1995-10-31</dob>
+        <address>D.No: 7-5-92, Opp. Nirmal Concept School, Nirmal Nagar</address>
+        <preferences>SAMSUNG,LENOVO,APPLE,VIVO</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>vishalrohith31@gmail.com</email>
+        <username>vishalrohith</username>
+        <password>vishalrohith</password>
+        <gender>male</gender>
+        <dob>2018-08-07</dob>
+        <address>D.No: 37-4-16, Badavapet, Nehru Nagar 4th lane, Vijayawada, 520010</address>
+        <preferences>APPLE,ONEPLUS</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>sravya@gmail.com</email>
+        <username>sravya</username>
+        <password>sravya</password>
+        <gender>female</gender>
+        <dob>2018-08-07</dob>
+        <address>D.No: 37-4-16, Badavapet, Nehru Nagar 4th lane, Vijayawada, 520010</address>
+        <preferences>SAMSUNG,APPLE,VIVO,GOOGLE</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>anjireddyvasepalli@gmail.com</email>
+        <username>anjireddy</username>
+        <password>anjireddy</password>
+        <gender>male</gender>
+        <dob>2018-09-12</dob>
+        <address>D.No: 7-5-92, Opp. Nirmal Concept School, Nirmal Nagar</address>
+        <preferences>ZTE,VIVO</preferences>
+        <nation>india</nation>
+    </user>
+    <user>
+        <email>aruna@gmail.com</email>
+        <username>aruna</username>
+        <password>aruna</password>
+        <gender>female</gender>
+        <dob>2018-08-30</dob>
+        <address>D.No: 7-5-92, Opp. Nirmal Concept School, Nirmal Nagar</address>
+        <preferences>APPLE,XIAOMI</preferences>
+        <nation>india</nation>
+    </user>
+</users>
